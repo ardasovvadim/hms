@@ -3,14 +3,20 @@ $black: #1D1D1D
 $white: #FFFFFF
 $lightgrey: #FAFAFA
 $gray: #BABABA
-
-.container-fluid
-  padding: 0
+$pink: #F8A2A1
 
 body
-  font-family: "Open Sans"
+  font-family: 'Open Sans', sans-serif
+  font-size: 18px
+
+.head-section
+  padding-top: 30px
+  padding-bottom: 30px
 
 .up-contacts
+  .col-auto
+    padding: 0
+    margin-left: 10px
   p, img
     display: inline-flex
     margin-left: 20px
@@ -23,7 +29,7 @@ body
   .row
     display: inline-flex
   .up-address
-    margin-left: 10px
+
 
 .t-bold
   font-weight: bold
@@ -42,3 +48,76 @@ body
     font-size: 18px
   a:last-child
     margin-right: 0
+
+.section-whoweare
+  .col-6
+    &:first-child
+      padding-right: 30px
+    &:last-child
+      padding-left: 60px
+  h2
+    color: $gray
+    font-size: 20px
+    text-transform: uppercase
+
+button
+  background: $yellow
+  text-transform: uppercase
+  color: $white
+  padding: 20px 8px
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
+
+.btn-trylesson
+  border-radius: 25px
+  background-color: rgba(0, 0, 0, 0)
+  border: 2px solid $yellow
+  color: $black
+  box-shadow: none
+
+a:hover
+  color: $yellow
+  transition: color 0.1s
+  text-decoration: none
+
+.image-top
+  position: relative
+  width: 100%
+  img
+    height: 350px
+    background: rgba(0, 0, 0, 0.59)
+#exp-sec-h1
+  position: absolute
+  width: 100%
+  text-align: center
+  text-transform: uppercase
+  color: $white
+  font-size: 120px
+  font-weight: bold
+  margin: 0
+  line-height: 90px
+
+.experience-section
+  padding-top: 40px
+  text-align: center
+  h1
+    font-size: 30px
+    margin-top: 20px
+  .col-3
+    h2
+      font-size: 38px
+    margin-top: 40px
+  .col-12
+    margin-top: 40px
+  padding-bottom: 40px
+
+.bg-yellow
+  background: $yellow
+
+.courses-section
+  background: $lightgrey
+  padding-top: 40px
+  h1:first-child
+    margin-bottom: 50px
+  .col-6
+    background-color: $pink
+    height: 450px

@@ -1,9 +1,14 @@
-.container-fluid {
-  padding: 0; }
-
 body {
-  font-family: "Open Sans"; }
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px; }
 
+.head-section {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.up-contacts .col-auto {
+  padding: 0;
+  margin-left: 10px; }
 .up-contacts p, .up-contacts img {
   display: inline-flex;
   margin-left: 20px;
@@ -15,8 +20,6 @@ body {
   color: #BABABA; }
 .up-contacts .row {
   display: inline-flex; }
-.up-contacts .up-address {
-  margin-left: 10px; }
 
 .t-bold {
   font-weight: bold; }
@@ -35,5 +38,77 @@ body {
     font-size: 18px; }
   .nav-menu a:last-child {
     margin-right: 0; }
+
+.section-whoweare .col-6:first-child {
+  padding-right: 30px; }
+.section-whoweare .col-6:last-child {
+  padding-left: 60px; }
+.section-whoweare h2 {
+  color: #BABABA;
+  font-size: 20px;
+  text-transform: uppercase; }
+
+button {
+  background: #FFDD10;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 20px 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); }
+
+.btn-trylesson {
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #FFDD10;
+  color: #1D1D1D;
+  box-shadow: none; }
+
+a:hover {
+  color: #FFDD10;
+  transition: color 0.1s;
+  text-decoration: none; }
+
+.image-top {
+  position: relative;
+  width: 100%; }
+  .image-top img {
+    height: 350px;
+    background: rgba(0, 0, 0, 0.59); }
+
+#exp-sec-h1 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 120px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 90px; }
+
+.experience-section {
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px; }
+  .experience-section h1 {
+    font-size: 30px;
+    margin-top: 20px; }
+  .experience-section .col-3 {
+    margin-top: 40px; }
+    .experience-section .col-3 h2 {
+      font-size: 38px; }
+  .experience-section .col-12 {
+    margin-top: 40px; }
+
+.bg-yellow {
+  background: #FFDD10; }
+
+.courses-section {
+  background: #FAFAFA;
+  padding-top: 40px; }
+  .courses-section h1:first-child {
+    margin-bottom: 50px; }
+  .courses-section .col-6 {
+    background-color: #F8A2A1;
+    height: 450px; }
 
 /*# sourceMappingURL=main.css.map */

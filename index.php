@@ -7,6 +7,7 @@
 <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css?<?php echo time(); ?>">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
 
 
     <title>HMS</title>
@@ -18,11 +19,16 @@
 <!--  /////////  HEAD  ///////  -->
     <div class="head-section">
         <div class="row justify-content-end up-contacts">
-            <p>г. Харьков</p>
-            <p class="number">+38 (095) 102 68 60</p>
-            <p class="text-grey">сегодня с 10.00 до 20.00</p>
-            <img src="img/point.svg">
-            <p class="text-grey up-address">ул. Благовещенская, д. 13 <br> м. Центральный Рынок</p>
+            <div class="col-auto"><p>г. Харьков</p></div>
+            <div class="col-auto"><p class="number">+38 (095) 102 68 60</p></div>
+            <div class="col-auto"><p class="text-grey">сегодня с 10.00 до 20.00</p></div>
+            <div class="col-auto">
+                <img src="img/point.svg">
+                <p class="text-grey up-address">ул. Благовещенская, д. 13 <br> м. Центральный Рынок</p></div>
+            <div class="col-auto"><button class="btn btn-trylesson">Записаться на обучение</button></div>
+        </div>
+        <div class="row justify-content-end">
+
         </div>
         <div class="row justify-content-center">
             <div class="col-auto">
@@ -51,58 +57,63 @@
 
 <!--   WHO WE ARE     -->
 
-        <div class="row">
-            <div class="col-6">
-                <img src="img/mainImg.png" alt="">
+        <div class="row section-whoweare">
+            <div class="col-6 row justify-content-end">
+                <div class="col-auto">
+                    <img src="img/mainImg.png" alt="">
+                </div>
             </div>
-            <div class="col-6">
-                <h1>Honey Music Studio</h1>
-                <h2>Кто мы</h2>
-                <p>Мы - коллектив профессиональных
-                    музыкантов, влюбленных в свое
-                    дело. Пожалуй, это главное, что
-                    нужно знать о Honey Music Studio.</p>
-                <button class="btn">Про школу</button>
+            <div class="col-6 row align-items-center">
+                <div class="col-12">
+                    <h1 class="t-bold">Honey Music Studio</h1>
+                    <h2>Кто мы</h2>
+                    <br>
+                    <p>Мы - коллектив профессиональных
+                        музыкантов, влюбленных в свое
+                        дело. Пожалуй, это главное, что
+                        нужно знать о Honey Music Studio.</p>
+                    <button class="btn t-bold">Про школу</button>
+                </div>
             </div>
         </div>
 
 <!--    EXPERIENCE HMS    -->
 
-        <div class="row">
-            <div class="col-12">
-                <img src="img/experience.png" alt="">
-                <h1>Опыт HMS</h1>
+        <div class="row experience-section">
+            <div class="col-12 image-top row justify-content-center align-items-end">
+                <img src="img/stock/piano2.jpg" alt="">
+                <h1 id="exp-sec-h1">Опыт HMS</h1>
             </div>
             <div class="col-12">
-                <h2>Наши резяльтаты в 2018/19 учебном году:</h2>
+                <h1 class="t-bold">В 2018 году мы провели:</h1>
             </div>
             <div class="col-3">
-                <h2>15</h2>
+                <h2 class="t-bold">15</h2>
                 <p>ярких концертов</p>
             </div>
             <div class="col-3">
-                <h2>12</h2>
+                <h2 class="t-bold">12</h2>
                 <p>наград на конкурсах</p>
             </div>
             <div class="col-3">
-                <h2>3</h2>
+                <h2 class="t-bold">3</h2>
                 <p>детских мюзыкла</p>
             </div>
             <div class="col-3">
-                <h2>2</h2>
+                <h2 class="t-bold">2</h2>
                 <p>музыкальных мультфильма</p>
             </div>
             <div class="col-12">
-                <p>но нельзя измерить <span>цифрами</span> самое главное - вдохновение
-                    наших учеников, их <span>радость</span> и <span>блеск в глазах</span>.</p>
+                <p class="t-bold">но нельзя измерить <span class="bg-yellow">цифрами</span> самое главное - вдохновение
+                    наших учеников, их <span class="bg-yellow">радость</span> и <span class="bg-yellow">блеск в глазах.</span></p>
             </div>
         </div>
 
 <!--    COURSES    -->
 
-        <div class="row">
+        <div class="row courses-section">
             <div class="col-12">
-                <h1>Направления</h1>
+                <h1 class="text-center t-bold">Направления</h1>
             </div>
 
             <div class="col-6">
@@ -110,7 +121,7 @@
             </div>
             <div class="col-3">
                 <div class="row">
-                    <div class="col-12"><h2>Вокал</h2></div>
+                    <div class="col-12 align-items-end"><h2>Вокал</h2></div>
                     <div class="col-12"><h2>Струнные</h2></div>
                 </div>
             </div>
