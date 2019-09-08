@@ -1,0 +1,42 @@
+.container-fluid {
+  padding: 0; }
+
+body {
+  font-family: "Open Sans"; }
+
+.up-contacts p, .up-contacts img {
+  display: inline-flex;
+  margin-left: 20px;
+  margin-bottom: 0;
+  height: auto; }
+.up-contacts .number {
+  font-weight: bold; }
+.up-contacts .text-grey {
+  color: #BABABA; }
+.up-contacts .row {
+  display: inline-flex; }
+.up-contacts .up-address {
+  margin-left: 10px; }
+
+.t-bold {
+  font-weight: bold; }
+
+.t-logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  padding-top: 10px; }
+
+.nav-menu {
+  padding-top: 70px; }
+  .nav-menu a {
+    text-transform: uppercase;
+    margin-right: 20px;
+    color: #1D1D1D;
+    font-size: 18px; }
+  .nav-menu a:last-child {
+    margin-right: 0; }
+
+.head-section {
+  background: radial-gradient(circle farthest-corner at 0% 0%, #FFDD10, #FFFFFF); }
+
+/*# sourceMappingURL=main.css.map */

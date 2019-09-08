@@ -1,0 +1,6 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="84" height="97" viewBox="0 0 84 97">
+  <rect id="Rectangle_2" data-name="Rectangle 2" width="41" height="8" transform="translate(42 28)" fill="#231f20"/>
+  <rect id="Rectangle_3" data-name="Rectangle 3" width="41" height="8" transform="translate(42 61)" fill="#231f20"/>
+  <rect id="Rectangle_4" data-name="Rectangle 4" width="41" height="8" transform="translate(42 45)" fill="#231f20"/>
+  <path id="Path_1" data-name="Path 1" d="M42,7,78,28V69L42,90,6,69V28L42,7m0-7L0,24V73L42,97,84,73V24Z" fill="#ffdd10"/>
+</svg>
