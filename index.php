@@ -116,22 +116,41 @@
                 <h1 class="text-center t-bold">Направления</h1>
             </div>
 
-            <div class="col-6">
-                <h2>Фортепиано</h2>
-            </div>
-            <div class="col-3">
-                <div class="row">
-                    <div class="col-12 align-items-end"><h2>Вокал</h2></div>
-                    <div class="col-12"><h2>Струнные</h2></div>
+            <div class="col-6 course-card pink-card">
+                <div class="text-container">
+                    <p class="text-grey col-12">01</p>
+                    <h2>Фортепиано</h2>
                 </div>
             </div>
             <div class="col-3">
                 <div class="row">
-                    <div class="col-12">
-                        <h2>Духовые</h2>
+                    <div class="col-12 course-card grey-card row align-items-end">
+                        <div class="text-container">
+                            <p class="text-grey col-12">02</p>
+                            <h2>Вокал</h2>
+                        </div>
                     </div>
-                    <div class="col-12">
-                        <h2>Ударные</h2>
+                    <div class="col-12 course-card blue-card row align-items-end">
+                        <div class="text-container">
+                            <p class="text-grey col-12">03</p>
+                            <h2>Струнные</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="row">
+                    <div class="col-12 course-card lightpink-card row align-items-end">
+                        <div class="text-container">
+                            <p class="text-grey col-12">04</p>
+                            <h2>Духовые</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 course-card green-card row align-items-end">
+                        <div class="text-container">
+                            <p class="text-grey col-12">05</p>
+                            <h2>Ударные</h2>
+                        </div>
                     </div>
                 </div>
             </div>
