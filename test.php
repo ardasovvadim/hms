@@ -34,7 +34,7 @@
             background: blue;
             margin-bottom: 20px;
         }
-kikol    </style>
+    </style>
 </head>
 <body>
     <div class="container">
