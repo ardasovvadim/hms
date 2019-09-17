@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,UAAU;EACR,WAAW,EAAE,GAAG;;AAElB,UAAU;EACR,KAAK,ECHA,OAAO;;ADKd,aAAa;EACX,SAAS,EAAE,KAAK",
+"sources": ["text%20decorators.sass","colors.sass"],
+"names": [],
+"file": "text%20decorators.css"
+}

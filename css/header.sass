@@ -1,0 +1,46 @@
+.contacts
+  padding-top: 20px
+  display: flex
+  justify-content: flex-end
+  align-items: center
+  p
+    margin-right: 20px
+
+  p.text-smaller
+    width: 180px
+    margin-right: 10px
+  i
+    font-size: 1.5em
+    line-height: 1em
+    margin-right: 10px
+    color: $yellow
+
+.logo
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-top: 50px
+  &-image
+    height: 100px
+  &-text
+    margin-top: 10px
+    color: $black
+    font-size: 1.2em
+    text-transform: uppercase
+
+nav
+  margin-top: 60px
+  display: flex
+  justify-content: center
+  a
+    text-transform: uppercase
+    color: $black
+    margin-right: 15px
+    &:last-child
+      margin: 0
+    &:hover
+      color: $yellow
+      transition: color 0.1s
+
+.top-header
+  background: linear-gradient(160deg, $yellow, $white 40%)

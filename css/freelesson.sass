@@ -1,0 +1,42 @@
+.freelesson
+  padding-top: 50px
+  padding-bottom: 20px
+  background: $lightgrey
+  h1
+    text-align: center
+    padding-bottom: 50px
+  .col-12:first-child
+    display: flex
+    flex-direction: row
+    justify-content: center
+    input
+      background-color: transparent
+      border: none
+      border-bottom: 3px solid $black
+      width: 470px
+      margin-bottom: 40px
+      display: block
+      padding: 10px
+      &:focus
+        outline: none
+    input, input::placeholder
+      line-height: 1.2em
+      color: $black
+      font-weight: 700
+  .btn
+    background: linear-gradient(90deg, $yellow, #FDEB79)
+    text-align: center
+    font-weight: 700
+    padding: 15px 0
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
+    &:active
+      box-shadow: none
+  .col-3
+    display: flex
+    flex-direction: column
+    padding: 50px 30px
+  h2, p
+    display: inline-block
+    width: 290px
+  p
+    line-height: 1.5em
