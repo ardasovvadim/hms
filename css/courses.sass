@@ -1,127 +1,54 @@
-@charset "UTF-8"
-
-.courses-color
-  background: $lightgrey
-
-.courses
-  position: relative
-  background: $lightgrey
+.about-course
   padding-top: 50px
-  padding-bottom: 50px
-  max-width: 1240px
-  margin-left: auto
-  margin-right: auto
-  .col-6, .col-3
-    box-sizing: border-box
-    padding: 10px
-  .col-3
-    .text-under-small
-      bottom: 0
-      top: 10%
-      width: auto
-  .card-area
-    padding: 0
-    .col-6:nth-child(1), .col-6:nth-child(2)
-      padding: 0 0 10px 0
-    .col-6:nth-child(n+3)
-      padding: 10px 0 0 0
-    .col-6:nth-child(2n)
-      padding-left: 10px
-    .col-6:nth-child(2n+1)
-      padding-right: 10px
+  line-height: 2em
+  font-size: 1.1em
+  p
+    text-align: center
+    display: inline-block
+    width: 1000px
+
+.from-beginner
+  padding: 50px 0
+  line-height: 1.5em
   h1
     text-align: center
-    font-size: 3em
-    margin: 0 0 50px 0
-  .card
-    display: flex
-    justify-content: flex-end
-    border-radius: 25px
-    overflow: hidden
-    height: auto
-    p
-      color: $grey
-      margin: 0
-      font-size: 1.2em
-    h2
-      display: inline-block
-      margin: 0
-      margin-right: auto
-      text-transform: uppercase
-      font-size: 2.2em
-      &:last-child
-        border-bottom: 3px solid $yellow
-  .text-under
+    padding-bottom: 60px
+
+.teachers
+  padding: 50px 0
+  text-align: center
+  .cards
+    padding-top: 20px
+  .teacher-card
     display: flex
     flex-direction: column
-    position: absolute
-    bottom: 60px
-    left: 40px
-    &-small
-      position: absolute
-      bottom: 30px
-      left: 30px
-      h2
-        font-size: 1.8em
-  .yellow-card
-    background-color: #FFE860
-    &-big
-      background-color: #FFE860
-      height: 515px
-  .blue-card
-    background: #E1EDFD
-  .purple-card
-    background: #F6E0F7
-  .grey-card
-    background: #EFEFEF
-  .darkblue-card
-    background: #D1D7EF
-  .pink-card
-    background: #FEE0DE
-  .green-card
-    background: #E1EEA6
-  .lightyellow-card
-    background: #FAF2CE
-  .darkpink-card
-    background: #F8A2A1
-  .individual
-    padding-left: 30px
-    &:before
-      content: ''
-      position: absolute
-      top: 10px
-      bottom: 10px
-      left: 20px
-      width: 1px
-      background: $grey
-    &:after
-      text-transform: uppercase
-      content: "индивидуальные"
-      bottom: 50%
-      left: -79px
-      position: absolute
-      transform-origin: center center
-      transform: rotate(-90deg)
-      background: $lightgrey
-      padding: 0 20px
-  .group
-    padding-left: 30px
-    &:before
-      content: ''
-      position: absolute
-      top: 10px
-      bottom: 10px
-      left: 20px
-      width: 1px
-      background: $grey
-    &:after
-      text-transform: uppercase
-      content: "групповые"
-      bottom: 50%
-      left: -48px
-      position: absolute
-      transform-origin: center center
-      transform: rotate(-90deg)
-      background: $lightgrey
-      padding: 0 20px
-
+    align-items: center
+    padding: 30px
+    .text
+      text-align: center
+      margin-top: 20px
+      margin-right: 20px
+      .text-bold
+        font-size: 1.1em
+      p
+        margin: 0
+        margin-bottom: 5px
+    .image-card
+      position: relative
+      .circle
+        z-index: -1
+        width: 290px
+        height: 290px
+        position: absolute
+        top: 10%
+        left: -10%
+        border-radius: 50%
+        background: linear-gradient(90deg, $yellow, #FFEC7A)
+      .teacher-card-shadow
+        position: absolute
+        bottom: 5px
+        left: -9%
+        z-index: -1
+        width: 280px
+        height: 50px
+        box-shadow: 0 25px 25px -20px rgba(0,0, 0, .3)

@@ -18,7 +18,7 @@
             <nav>
                 <a href="../index.php">Главная</a>
                 <a href="../about.php">Про школу</a>
-                <a href="#">Курсы</a>
+                <a href="../course-voice.php">Курсы</a>
                 <a href="#">Цена</a>
                 <a href="#">Блог</a>
                 <a href="#">Контакты</a>

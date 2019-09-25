@@ -1,4 +1,10 @@
 @charset "UTF-8";
+.grey-block {
+  background: #FAFAFA; }
+
+.grey-block {
+  background: #FAFAFA; }
+
 .text-bold {
   font-weight: 700; }
 
@@ -10,6 +16,9 @@
 
 mark {
   background: #FFDD10; }
+
+.text-align-center {
+  text-align: center; }
 
 .btn, .btn-outline {
   padding: 8px 20px;
@@ -42,47 +51,37 @@ mark {
   max-width: 100%; }
 
 .col-3 {
-  position: relative;
   flex: 0 0 25%;
   max-width: 25%;
   width: 100%; }
 
 .col-4 {
-  position: relative;
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
   width: 100%; }
 
 .col-5 {
-  position: relative;
   flex: 0 0 41.666667%;
   max-width: 41.666667%;
   width: 100%; }
 
 .col-6 {
-  position: relative;
   flex: 0 0 50%;
   max-width: 50%;
   width: 100%; }
 
 .col-7 {
-  position: relative;
   flex: 0 0 58.333333%;
   max-width: 58.333333%;
   width: 100%; }
 
 .col-12 {
-  position: relative;
   flex: 0 0 100%;
   max-width: 100%;
   width: 100%; }
 
-.col {
-  position: relative;
-  flex: 1 0 0;
-  max-width: 100%; }
-
 .col, .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  position: relative;
   box-sizing: border-box; }
 
 .justify-content-end {
@@ -90,6 +89,9 @@ mark {
 
 .justify-content-center {
   justify-content: center; }
+
+.justify-content-between {
+  justify-content: space-between; }
 
 .align-items-center {
   align-items: center; }
@@ -104,6 +106,9 @@ a {
   text-decoration: none;
   color: #FFDD10; }
 
+h1 {
+  font-size: 2.3em; }
+
 html {
   font-size: 16px; }
 
@@ -112,7 +117,8 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #1D1D1D;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  overflow-x: hidden; }
 
 .contacts {
   padding-top: 20px;
@@ -220,6 +226,7 @@ footer {
     font-weight: 700;
     box-shadow: 0 3px 6px rgba(29, 29, 29, 0.16); }
     .about .btn:active {
+      transition: 0.2s;
       box-shadow: none; }
 
 .experience {
@@ -525,5 +532,138 @@ footer {
     background-image: url("../img/stock/5.png"); }
   .atmosphere .imagebox .img-6 {
     background-image: url("../img/stock/6.png"); }
+
+.teacher-photo-block {
+  padding-top: 40px;
+  text-align: center; }
+  .teacher-photo-block #teacher-image {
+    width: 800px; }
+  .teacher-photo-block h1 {
+    font-size: 3em;
+    text-transform: uppercase; }
+  .teacher-photo-block .text-bold {
+    font-size: 1.1em; }
+  .teacher-photo-block p {
+    line-height: 1.5em; }
+  .teacher-photo-block .radial-gradient {
+    z-index: 0;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    transform-origin: center center;
+    top: 50%;
+    background: radial-gradient(circle, #FFDD10, transparent 51%); }
+    .teacher-photo-block .radial-gradient-left {
+      left: -50%; }
+    .teacher-photo-block .radial-gradient-right {
+      right: -50%; }
+
+.yellow-image-block {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  line-height: 1.5em; }
+  .yellow-image-block p {
+    display: inline-block;
+    width: 500px; }
+  .yellow-image-block .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+
+.yellow-square-image {
+  margin-left: 50px;
+  background: linear-gradient(135deg, #FFDD10, #FFEC79);
+  padding: 0 40px 40px 40px; }
+  .yellow-square-image img {
+    margin-top: -50px; }
+
+.video-aboutus {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  text-align: center;
+  background: linear-gradient(180deg, #FFDD10, transparent 45%); }
+  .video-aboutus .video-block {
+    margin-top: 50px;
+    background: #FFDD10;
+    border-radius: 25px;
+    padding: 20px;
+    display: inline-block; }
+  .video-aboutus .hexagon {
+    position: absolute; }
+  .video-aboutus #hex-1 {
+    top: 50%;
+    left: 10%; }
+  .video-aboutus #hex-2 {
+    top: 60%;
+    right: 15%; }
+  .video-aboutus #hex-3 {
+    top: 25%;
+    right: 5%; }
+
+.post-scriptum {
+  text-align: center;
+  padding: 50px 0; }
+  .post-scriptum h1 {
+    margin-bottom: 40px; }
+  .post-scriptum p {
+    line-height: 1.5em;
+    display: inline-block;
+    width: 1200px;
+    margin: 10px 0; }
+
+.about-course {
+  padding-top: 50px;
+  line-height: 2em;
+  font-size: 1.1em; }
+  .about-course p {
+    text-align: center;
+    display: inline-block;
+    width: 1000px; }
+
+.from-beginner {
+  padding: 50px 0;
+  line-height: 1.5em; }
+  .from-beginner h1 {
+    text-align: center;
+    padding-bottom: 60px; }
+
+.teachers {
+  padding: 50px 0;
+  text-align: center; }
+  .teachers .cards {
+    padding-top: 20px; }
+  .teachers .teacher-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px; }
+    .teachers .teacher-card .text {
+      text-align: center;
+      margin-top: 20px;
+      margin-right: 20px; }
+      .teachers .teacher-card .text .text-bold {
+        font-size: 1.1em; }
+      .teachers .teacher-card .text p {
+        margin: 0;
+        margin-bottom: 5px; }
+    .teachers .teacher-card .image-card {
+      position: relative; }
+      .teachers .teacher-card .image-card .circle {
+        z-index: -1;
+        width: 290px;
+        height: 290px;
+        position: absolute;
+        top: 10%;
+        left: -10%;
+        border-radius: 50%;
+        background: linear-gradient(90deg, #FFDD10, #FFEC7A); }
+      .teachers .teacher-card .image-card .teacher-card-shadow {
+        position: absolute;
+        bottom: 5px;
+        left: -9%;
+        z-index: -1;
+        width: 280px;
+        height: 50px;
+        box-shadow: 0 25px 25px -20px rgba(0, 0, 0, 0.3); }
 
 /*# sourceMappingURL=main.css.map */
