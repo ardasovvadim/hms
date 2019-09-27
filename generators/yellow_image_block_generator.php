@@ -18,7 +18,7 @@ $output .=
     <div class=\"col-6\">
         <div class=\"row\">
             <div class=\"yellow-square-image\">
-                <img src=\"img/voice-girl.png\" alt=\"\">
+                <img src=\"$image\" alt=\"\">
             </div>
         </div>
     </div>
@@ -27,13 +27,13 @@ $output .=
     return $output;
 }
 
-function leat_yellow_image_text_block($text, $image) {
+function left_yellow_image_text_block($text, $image) {
     $output = "
 <div class=\"row yellow-image-block left-yellow-image-block\">
     <div class=\"col-6\">
         <div class=\"row\">
             <div class=\"yellow-square-image\">
-                <img src=\"img/voice-girl.png\" alt=\"\">
+                <img src=\"$image\" alt=\"\">
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@ function leat_yellow_image_text_block($text, $image) {
             ";
 
 for($i = 0; $i < sizeof($text); ++$i) {
-    $output .= "$text[i]";
+    $output .= $text[$i];
 }
 
 $output .=

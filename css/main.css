@@ -20,6 +20,17 @@ mark {
 .text-align-center {
   text-align: center; }
 
+.text-gradient {
+  font-size: 5em;
+  margin: 0;
+  display: inline-block;
+  background: linear-gradient(0deg, #FFDD10, #FFF262);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+li {
+  list-style: none; }
+
 .btn, .btn-outline {
   padding: 8px 20px;
   border-radius: 25px;
@@ -577,6 +588,18 @@ footer {
   .yellow-square-image img {
     margin-top: -50px; }
 
+li {
+  display: flex;
+  align-items: center; }
+
+.circle-marker {
+  display: inline-block;
+  margin-right: 20px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #FFDD10; }
+
 .video-aboutus {
   padding-top: 25px;
   padding-bottom: 50px;
@@ -665,5 +688,17 @@ footer {
         width: 280px;
         height: 50px;
         box-shadow: 0 25px 25px -20px rgba(0, 0, 0, 0.3); }
+
+.results {
+  padding: 50px 0; }
+  .results .text-title {
+    padding-bottom: 50px; }
+  .results .card {
+    background: #FFFFFF;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 75px 5px rgba(0, 0, 0, 0.1); }
+    .results .card p {
+      line-height: 1.5em; }
 
 /*# sourceMappingURL=main.css.map */

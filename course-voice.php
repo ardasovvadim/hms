@@ -103,11 +103,107 @@
                 </div>
             </div>
         </section>
-        <section class="grey-block">
-            <div class="row">
-                <h1>В результате обучения в Honey Music Studio
+        <section class="results grey-block">
+            <div class="row justify-content-center">
+                <h1 class="text-title">В результате обучения в Honey Music Studio
                     вы сможете:</h1>
-                .col-3*4>h2
+                <div class="col-3 card card">
+                    <h2 class="text-gradient">01</h2>
+                    <p>Легко и красиво
+                        исполнять results любимые
+                        песни в различных
+                        стилях (pop, rock, soul,
+                        folk, jazz).</p>
+                </div>
+                <div class="col-3 card">
+                    <h2 class="text-gradient">02</h2>
+                    <p>Освоить вокальные
+                        техники: субтон, гроул,results
+                        фрай, бэлтинг,
+                        мелизматика, вибрато и
+                        другие.</p>
+                </div>
+                <div class="col-3 card">
+                    <h2 class="text-gradient">03</h2>
+                    <p>Преодолеть чувство
+                        страха results перед
+                        выступлением. Вести
+                        себя на сцене свободно и
+                        расковано.</p>
+                </div>
+                <div class="col-3 card">
+                    <h2 class="text-gradient">04</h2>
+                    <p>Петь сольно и
+                        импровизировать. Петь
+                        в составе дуэта или
+                        ансамбля.</p>
+                </div>
+                <div class="col-3 card">
+                    <h2 class="text-gradient">05</h2>
+                    <p>Выступать на концертах
+                        школы на одной сцене с
+                        профессиональными
+                        музыкантами.</p>
+                </div>
+                <div class="col-3 card">
+                    <h2 class="text-gradient">06</h2>
+                    <p>Участвовать в вокальных
+                        фестивалях, конкурсах и
+                        кастингах.</p>
+                </div>
+            </div>
+        </section>
+        <?php require_once 'parts/freelesson-section.php'; ?>
+        <section>
+            <div class="row">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>Этапы обучения вокалу в
+                            Honey Music Studio</h1>
+                        <p class="text-bold">Основная часть наших учеников хочет научиться петь для себя. Но есть и те, кто
+                            приходит к нам за профессиональной подготовкой, чтобы в дальнейшем строить
+                            свою музыкальную карьеру. Вне зависимости от целей, все проходят необходимые
+                            базовые этапы становления вокалиста.</p>
+                        <p>1 и 2 этапы базовые.</p>
+                    </div>
+                    <?php
+                    unset($text);
+                    $text[] = "<h1>1 этап. «Постановка голоса».</h1>";
+                    $text[] = "<ul>
+                        <li><div class='circle-marker'></div>Определяем тип голоса.</li>
+                        <li><div class='circle-marker'></div>Гигиена голосового аппарата (профилактика и
+                            необходимые меры по восстановлению голоса).
+                            Выработка полезных вокальных привычек.</li>
+                        <li><div class='circle-marker'></div>Обучение пению «на опоре». (Постановка
+                            «певческого дыхания»).</li>
+                        <li><div class='circle-marker'></div>Устранение вокальных «зажимов»
+                            отрицательных качеств голоса: гнусавость,
+                            гортанность, форсирование звука,
+                            недостаточность силы звучания голоса, сип,
+                            быстрая утомляемость голосовых связок.</li>
+                        <li><div class='circle-marker'></div>Правильная дикция и артикуляция (коррекция
+                            некоторых дефектов речи).</li>
+                        <li><div class='circle-marker'></div>Формирование правильного певчего звучания.</li>
+                        <li><div class='circle-marker'></div>Развитие музыкального слуха и чувства ритма.</li>
+                    </ul>";
+                    $image = "img/voice-girl.png";
+                    echo left_yellow_image_text_block($text, $image);
+
+                    unset($text);
+                    $text[] = "<h1>2 этап. «Поиск и формирование индивидуального звучания».</h1>";
+                    $text[] = "<ul>
+                        <li><div class='circle-marker'></div>Подбор индивидуальных упражнений.</li>
+                        <li><div class='circle-marker'></div>Расширение диапазона, «сглаживание» регистров.</li>
+                        <li><div class='circle-marker'></div>Работа с микрофоном.</li>
+                        <li><div class='circle-marker'></div>Разбор композиций (разбор формы произведения, работа с текстом, фразировка, расстановка акцентов, выбор и отработка вокальных приёмов).</li>
+                        <li><div class='circle-marker'></div>Правильная дикция и артикуляция (коррекция некоторых дефектов речи).</li>
+                        <li><div class='circle-marker'></div>Развитие гармоничного слуха. Бэк-вокал, умение «держать партию» в ансамблевом пении.</li>
+                        <li><div class='circle-marker'></div>Пение в дуэте в ансамбле.</li>
+                    </ul>";
+                    $image = "img/voice-man.png";
+                    echo right_yellow_image_text_block($text, $image);
+                    ?>
+                </div>
             </div>
         </section>
     </main>
