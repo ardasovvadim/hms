@@ -154,11 +154,11 @@
             </div>
         </section>
         <?php require_once 'parts/freelesson-section.php'; ?>
-        <section>
+        <section class="stages">
             <div class="row">
                 <div class="row">
-                    <div class="col-12">
-                        <h1>Этапы обучения вокалу в
+                    <div class="col-12 title">
+                        <h1>Этапы обучения вокалу в <br>
                             Honey Music Studio</h1>
                         <p class="text-bold">Основная часть наших учеников хочет научиться петь для себя. Но есть и те, кто
                             приходит к нам за профессиональной подготовкой, чтобы в дальнейшем строить
@@ -206,8 +206,77 @@
                 </div>
             </div>
         </section>
+        <section class="duration-lesson grey-block">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Как проходит типичный урок вокала в Honey Music Studio</h1>
+                </div>
+                <div class="col-6">
+                    <div class="row justify-content-end">
+                        <div class="col-auto text">
+                            <h2 class="text-gradient">55 мин</h2>
+                            <p class="text-bold"><mark>Длительность одного урока 55 минут.</mark></p>
+                            <p>Все занятия по вокалу в школе индивидуальны.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 image">
+                    <img src="img/cello.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="plan-lesson">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Структура урока</h1>
+                </div>
+                <div class="col-6">
+                    <div class="item">
+                        <p class="text-bold">1. Настройка</p>
+                        <p>Часто говорят, что урок начинается с распевок. Но на самом деле для плодотворной работы нужно привести в порядок своё психоэмоциональное состояние, и настроится на урок.</p>
+                    </div>
+                    <div class="item">
+                        <p class="text-bold">2. Работа над дыханием</p>
+                        <p>Певческое дыхание - основа основ, и мы работаем над этим на каждом уроке до тех пор, пока пение на опоре не войдет в плоть и кровь вокалиста.</p>
+                    </div>
+                    <div class="item">
+                        <p class="text-bold">3. Артикуляция и дикция</p>
+                        <p>Правильное и четкое произношение слов является необходимой составляющей красивого исполнения. К тому же, певческая артикуцией гласных и согласных звуков отличается от речевой.</p>
+                    </div>
+                    <div class="item">
+                        <p class="text-bold">4. Индивидуальный распевки</p>
+                        <p>Из большого количества вольных упражнений и распевок мы отбираем те, которые подходят для конкретного ученика и развивают его сильные стороны. Или исправляют слабые.</p>
+                    </div>
+                    <div class="item">
+                        <p class="text-grey text-smaller">~ 30 минут отводится работе на подготовительный этап. Чем более опытный вокалист, тем быстрее мы переходим к работе над песней</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="item">
+                        <p class="text-bold">5. Работа над песней</p>
+                    </div>
+                    <div class="next-level">
+                        <div class="item">
+                            <p class="text-bold">5.1 Выбор репертуара</p>
+                            <p>Необходимо, чтобы песня соответствовала возрасту, диапазону и вокальному уровню ученика.</p>
+                        </div>
+                        <div class="item">
+                            <p class="text-bold">5.2 Работа с текстом</p>
+                            <p>Если композиция на иностранном языке, то обязательно производится дословный перевод. Далее заучивается текст и мелодия. После чего мы делаем исполнение песни интересным с помощью фразировки, динамики, агогики.</p>
+                        </div>
+                        <div class="item">
+                            <p class="text-bold">5.3 Работа над сценическим образом</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <?php require_once 'parts/feedback-section.php'; ?>
+        <?php require_once 'parts/way-goal-section.php'; ?>
+        <?php require_once 'parts/atmosphere-section.php'; ?>
+
     </main>
-<!--    --><?php //require_once 'parts/footer.php'; ?>
+    <?php require_once 'parts/footer.php'; ?>
 </div>
 </body>
 </html>

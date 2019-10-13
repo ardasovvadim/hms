@@ -1,0 +1,76 @@
+.feedback
+  padding: 50px 0
+  .author-feedback
+    text-align: right
+    .name
+      font-size: 1.1em
+      margin-bottom: 10px
+    .status
+      margin: 0 0 20px
+    .trigger-next
+      font-size: 2em
+      &:last-of-type(1)
+        margin-left: 30px
+  &>.row:first-child
+    width: 1200px
+  .title
+    h1
+      margin: 0
+    .text
+      width: 600px
+      display: inline-block
+      margin: 40px 0
+  a
+    display: inline-block
+  .comment-text
+    line-height: 1.5em
+    padding-left: 80px
+    max-width: 800px
+    .comment-title
+      font-size: 1.1em
+  .photo-circles
+    position: relative
+    margin-bottom: 60px
+    .circle-container
+      position: relative
+      background: $lightgrey
+      display: inline-block
+      text-align: center
+      z-index: 1
+      padding: 0 20px
+    &:before
+      content: ''
+      position: absolute
+      display: block
+      height: 2px
+      background: $grey
+      left: -20%
+      right: -20%
+      top: 50%
+      z-index: 0
+    .circle-image
+      width: 50px
+      height: 50px
+      border-radius: 50%
+      &-block
+        display: inline-block
+        position: relative
+        background: $lightgrey
+        padding: 0 10px
+        &:after
+          content: ''
+          display: block
+          position: absolute
+          width: 50px
+          height: 50px
+          border-radius: 50%
+          top: 0
+          left: 10px
+          background: linear-gradient(90deg, $yellow, #FFF2A1)
+          opacity: 0
+          transition: .3s
+          cursor: pointer
+        &:hover:after
+          opacity: 0.8
+      &-active:after
+        opacity: 0.8

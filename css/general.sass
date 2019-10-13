@@ -26,6 +26,11 @@
   padding: 0 20px
   position: relative
 
+.col-auto
+  flex: 0 0 auto
+  width: auto
+  max-width: none
+
 .col
   flex-basis: 0
   flex-grow: 1
@@ -57,6 +62,16 @@
   max-width: 58.333333%
   width: 100%
 
+.col-8
+  flex: 0 0 66.666666%
+  max-width: 66.666666%
+  width: 66.666666%
+
+.col-9
+  flex: 0 0 75%
+  max-width: 75%
+  width: 75%
+
 .col-12
   flex: 0 0 100%
   max-width: 100%
@@ -84,6 +99,9 @@
 .justify-content-space-around
   justify-content: space-around
 
+.flex-dir-col
+  flex-direction: column
+
 a
   text-decoration: none
   color: $yellow
@@ -91,4 +109,5 @@ a
 h1
   font-size: 2.3em
 
-
+.br-circle
+  border-radius: 50%

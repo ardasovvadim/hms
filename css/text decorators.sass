@@ -10,13 +10,29 @@
   font-size: 0.9em
 
 mark
-  background: $yellow
+  position: relative
+  background: transparent
+  transition: all 1s
+  z-index: 1
+  &:after
+    content: ""
+    display: block
+    position: absolute
+    background: $yellow
+    height: 100%
+    top: 0
+    left: 0
+    width: 0
+    z-index: -1
+    transition: all 1s
+  &.animate:after
+    width: 100%
+
 
 .text-align-center
   text-align: center
 
 .text-gradient
-  font-size: 5em
   margin: 0
   display: inline-block
   background: linear-gradient(0deg, $yellow, #FFF262)
@@ -25,3 +41,12 @@ mark
 
 li
   list-style: none
+
+.title
+  text-align: center
+
+.text-align-justify
+  text-align: justify
+
+.text-yellow
+  color: $yellow

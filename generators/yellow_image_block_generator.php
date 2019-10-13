@@ -16,7 +16,7 @@ $output .=
         </div>
     </div>
     <div class=\"col-6\">
-        <div class=\"row\">
+        <div class=\"row justify-content-end\">
             <div class=\"yellow-square-image\">
                 <img src=\"$image\" alt=\"\">
             </div>

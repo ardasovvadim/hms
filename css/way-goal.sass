@@ -1,0 +1,40 @@
+.way-goal
+  padding: 50px 0 60px 0
+  line-height: 1.75em
+  .row:first-of-type
+    max-width: 1200px
+    margin: 0 auto
+  .title
+    margin-bottom: 50px
+  .list-items
+    position: relative
+    padding-right: 10px
+    &:after
+      content: ""
+      display: block
+      position: absolute
+      width: 3px
+      top: 0
+      bottom: 0
+      right: 0
+      background: $grey
+    .item
+      line-height: 1.5em
+      display: flex
+      position: relative
+      p:last-of-type
+          padding-left: 10px
+    & .active:after
+      content: ""
+      display: block
+      position: absolute
+      width: 3px
+      top: 0
+      bottom: 0
+      right: -10px
+      background: $yellow
+      z-index: 1
+  .text-item
+    padding-left: 50px
+    &-title
+      font-size: 1.2em

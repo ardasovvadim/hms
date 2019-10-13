@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="col-12 mark-text">
-            <p class="text-bold">но нельзя измерить <mark>цифрами</mark> самое главное - вдохновение наших учеников, их <mark>радость</mark> и <mark>блеск в глазах</mark>.</p>
+            <p class="text-bold">но нельзя измерить <mark>цифрами</mark> самое главное - вдохновение наших учеников, их <mark>радость</mark> и <mark>блеск в глазах.</mark></p>
         </div>
     </div>
 </section>
