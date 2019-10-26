@@ -3,10 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="d06120ba-aceb-4c86-bc84-c629df4cd909" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/contcs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/contacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/contacs.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/contacs.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/feedback.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/feedback.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/feedback.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/price.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/price.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/price.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/way-goal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/way-goal.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/css/way-goal.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cello.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/feedback1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/feedback1_crop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/feedback2_crop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/feedback3_crop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/feedback4_crop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/feedback5_crop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/instagram-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.2.1.slim.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parts/bottom-scripts-include.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/parts/feedback-section.php" afterDir="false" />
@@ -212,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,6 +251,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,12 +328,12 @@
       <workItem from="1570727727990" duration="788000" />
       <workItem from="1570775533478" duration="1543000" />
       <workItem from="1570804373738" duration="6648000" />
-      <workItem from="1570885682813" duration="2080000" />
+      <workItem from="1570885682813" duration="2188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197539000" />
+    <option name="totallyTimeSpent" value="197647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
