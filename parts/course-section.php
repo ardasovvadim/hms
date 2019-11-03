@@ -3,13 +3,15 @@
         <h1>Направления</h1>
         <div class="row individual">
             <div class="col-6">
-                <div class="card yellow-card-big">
-                    <img src="img/intr/1.png" alt="">
-                    <div class="text-under">
-                        <p>01</p>
-                        <h2>Вокал</h2>
+                <a href="../course-voice.php">
+                    <div class="card yellow-card-big">
+                        <img src="img/intr/1.png" alt="">
+                        <div class="text-under">
+                            <p>01</p>
+                            <h2>Вокал</h2>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-6">
                 <div class="row card-area">

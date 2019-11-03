@@ -28,19 +28,144 @@
     font-size: 1.2em
     text-transform: uppercase
 
+
+.top-header
+  background: linear-gradient(160deg, $yellow, $white 40%)
+  nav
+    margin-top: 60px
+    display: flex
+    justify-content: center
+    a
+      text-transform: uppercase
+
+
 nav
-  margin-top: 60px
-  display: flex
-  justify-content: center
   a
-    text-transform: uppercase
-    color: $black
     margin-right: 15px
     &:last-child
-      margin: 0
+      margin-right: 0
+  a
+    color: $black
     &:hover
       color: $yellow
       transition: color 0.1s
 
-.top-header
-  background: linear-gradient(160deg, $yellow, $white 40%)
+#header-floating
+  background: $white
+  display: none
+  position: fixed
+  top: 0
+  right: 0
+  width: 100%
+  z-index: 99
+  box-shadow: 0 3px 6px rgba(29, 29, 29, 0.16)
+  nav
+    height: 100%
+    display: flex
+    flex-direction: row
+    align-items: center
+    a
+      font-size: 1em
+    .btn
+      font-size: .9em
+      font-weight: 300
+      transition: all 1s
+      position: relative
+      a
+        span
+          position: relative
+          z-index: 2
+        &:hover
+          color: $black
+        &:after
+          content: ''
+          position: absolute
+          top: 0
+          left: 0
+          right: 0
+          bottom: 0
+          border-radius: 25px
+          background: linear-gradient(90deg, #FDEB79, #FFDB78)
+          z-index: 1
+          opacity: 0
+          transition: 1s
+        &:hover:after
+            opacity: 1
+
+#modal-get-course
+  background: $white
+  display: none
+  position: fixed
+  z-index: 99
+  box-shadow: 0 3px 25px rgba(0, 0, 0, .1)
+  padding: 30px 20px 50px 20px
+  text-align: center
+  &:after
+    z-index: -1
+    content: ''
+    display: block
+    width: 40px
+    height: 40px
+    transform: rotate(45deg)
+    background: $white
+    position: absolute
+    transform-origin: top right
+    top: 0
+    right: 40px
+  h2
+    margin-bottom: 40px
+  input
+    background-color: transparent
+    border: none
+    border-bottom: 3px solid $black
+    width: 470px
+    margin: 0 auto 40px
+    display: block
+    padding: 10px
+    &:focus
+      outline: none
+  input, input::placeholder
+    line-height: 1.2em
+    color: $black
+    font-weight: 700
+  .btn
+    display: inline-block
+    background: linear-gradient(90deg, $yellow, #FDEB79)
+    text-align: center
+    padding: 15px 30px
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
+    &:active
+      box-shadow: none
+
+.header-nav__dropdown
+  position: relative
+  &-list
+    padding-top: 30px
+    visibility: hidden
+    opacity: 0
+    transition: .4s
+    position: absolute
+    top: 15px
+    left: -40px
+    z-index: 99
+  & ul
+    margin: 0
+    padding: 30px
+    background: $white
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1)
+    &>li
+      padding: 0
+      margin: 0 0 30px
+      &:last-of-type
+        margin: 0
+    &:after
+      content: ''
+      display: block
+      position: absolute
+      background: $white
+      transform-origin: top right
+      transform: rotate(45deg)
+      width: 25px
+      height: 25px
+      top: 30px
+      left: 50px

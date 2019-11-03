@@ -14,6 +14,8 @@
   .col-6, .col-3
     box-sizing: border-box
     padding: 10px
+    a
+      color: $black
   .col-3
     .text-under-small
       bottom: 0
@@ -50,7 +52,11 @@
       text-transform: uppercase
       font-size: 2.2em
       &:last-child
-        border-bottom: 3px solid $yellow
+        transition: .4s
+        border-bottom: 3px solid
+        border-bottom-color: $yellow
+    img
+      transition: 1s
   .text-under
     display: flex
     flex-direction: column

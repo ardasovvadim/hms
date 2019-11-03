@@ -9,5 +9,6 @@
 <link rel="stylesheet" href="">
 
 <!-- FONTS -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
 <script src="https://kit.fontawesome.com/891ccb40dd.js"></script>

@@ -6,7 +6,16 @@
 
 .btn
   @extend %btn-options
-  background: $yellow
+  //background: $yellow
+  background: linear-gradient(90deg, $yellow, #FDEB79)
+  text-align: center
+  padding: 10px 30px
+
+.btn-shadow
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16)
+  transition: .2s
+  &:active
+    box-shadow: none
 
 .btn-outline
   @extend %btn-options
@@ -101,6 +110,12 @@
 
 .flex-dir-col
   flex-direction: column
+
+.align-items--stretch
+  align-items: stretch
+
+.vertical-align--center
+  vertical-align: center
 
 a
   text-decoration: none
