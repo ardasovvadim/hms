@@ -1,7 +1,6 @@
 {
-  "name": "hms.com",
+  "name": "honeymusicstudio.com",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,10 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/ardasovvadim/hms.git"
   },
-  "author": "",
+  "author": "ardasovvadim",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ardasovvadim/hms/issues"
   },
-  "homepage": "https://github.com/ardasovvadim/hms#readme"
+  "homepage": "https://github.com/ardasovvadim/hms#readme",
+  "description": "",
+  "dependencies": {}
 }

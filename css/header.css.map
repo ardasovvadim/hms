@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACE,0BAAM;EACJ,OAAO,EAAE,YAAY",
-"sources": ["header.sass"],
-"names": [],
-"file": "header.css"
-}

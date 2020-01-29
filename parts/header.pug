@@ -1,0 +1,66 @@
+header#header-main.top-header
+    .row
+        .col-12
+            .contacts-up.text-smaller
+                p г. Харьков
+                p.text-bold +38 (095) 102 68 60
+                p.text-grey сегодня с 10.00 до 20.00
+                i.fas.fa-map-marker-alt
+                p.text-smaller.text-grey ул. Благовещенская, д.13 м. Центральный Рынок
+                .btn-outline.js-active-m-get-course Записаться на обучение
+        .col-12
+            .logo
+                img.logo-image(src='img/logo.svg')
+                a.logo-text(href='#')
+                    | Honey
+                    span.text-bold Music
+                    |  Studio
+            nav
+                a(href='index.html') Главная
+                a(href='about.html') Про школу
+                .header-nav__dropdown
+                    a.trigger-show-dropdown(href='index.html') Курсы
+                    .header-nav__dropdown-list
+                        ul
+                            li
+                                a(href='course-voice.html') Вокал
+                            li
+                                a(href='course-voice.html') Фортепиано
+                            li
+                                a(href='course-voice.html') Струнные
+                a(href='price.html') Цена
+                a(href='#') Блог
+                a(href='contacts.html') Контакты
+#header-floating
+    .row.justify-content-between
+        .col-auto
+            h3 Honey Music Studio
+        .col-auto
+            nav
+                a(href='index.html') Главная
+                a(href='about.html') Про школу
+                .header-nav__dropdown
+                    a.trigger-show-dropdown(href='index.html') Курсы
+                    .header-nav__dropdown-list
+                        ul
+                            li
+                                a(href='course-voice.html') Вокал
+                            li
+                                a(href='course-voice.html') Фортепиано
+                            li
+                                a(href='course-voice.html') Струнные
+                a(href='price.html') Цена
+                a(href='#') Блог
+                a(href='contacts.html') Контакты
+                a.text-bold(href='tel:+380951026860') +38 (095) 102 68 60
+                .btn.js-active-m-get-course
+                    a
+                        span Записаться
+#modal-get-course
+    .row
+        .col-auto
+            h2 Бесплатное пробное занятие
+            form(action='')
+                input(type='text', placeholder='Ваше имя')
+                input(type='text', placeholder='Телефон')
+                .btn.text-bold Записаться

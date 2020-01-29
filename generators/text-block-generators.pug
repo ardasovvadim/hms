@@ -1,0 +1,21 @@
+- function rightTextBlockGenerate(h1, h2, p_bold, p_data) {
+    .row.left
+        .col-6
+            h1 #{h1}
+            .underline
+            h2 #{h2}
+        .col-6
+            p.text-bold #{p_bold}
+            p #{p_data}
+- }
+
+- function rightTextBlockGenerate(h1, h2, p_bold, p_data) {
+    .row.left
+        .col-6
+            p.text-bold #{p_bold}
+            p #{p_data}
+        .col-6
+            h1 #{h1}
+            .underline
+            h2 #{h2}
+- }

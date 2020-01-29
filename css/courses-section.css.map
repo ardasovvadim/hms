@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA,aAAa;EACX,OAAO,EAAE,MAAM;EACf,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,KAAK;EAChB,eAAC;IACC,OAAO,EAAE,YAAY;IACrB,KAAK,EAAE,MAAM",
-"sources": ["course-voice.sass"],
-"names": [],
-"file": "course-voice.css"
-}

@@ -1,0 +1,20 @@
+doctype html
+html(lang='ru')
+    head
+        include ./parts/head-tags
+        title Про школу
+    body
+        .container
+            include ./parts/header
+            main
+                include ./parts/thisisus-section
+                include ./parts/right-gradientimage-section
+                include ./parts/bigschool-section
+                include ./parts/video-aboutus-section
+                section.columns
+                    include ./generators/text-block-generators
+                    - rightTextBlockGenerate("О методике обучения", "или как мы добиваемся результата", "Мы в курсе актуальных и эффективных методик обучения: наши педагоги регулярно участвуют в профильных мастер-классах и перенимают опыт лучших украинских и международных педагогов.", "Выбор конкретной методики всегда зависит от начального уровня ученика и тех целей, которые он перед собой ставит. Музыкальный материал для обучения педагог выбирает совместно с учеником. Таким образом, вы с самого начала исполняете ту музыку, которую вы любите, и которая вам подходит на текущем уровне развития ваших навыков. Разумеется, вы работаете над необходимой технической базой, но на тех произведениях, которые вас вдохновляет. Обучение с удовольствием всегда эффективнее. Это подтверждает достижение наших учеников." );
+                include ./parts/atmosphere-section
+                include ./parts/ps
+                include ./parts/footer
+                include ./parts/bottom-scripts-include
